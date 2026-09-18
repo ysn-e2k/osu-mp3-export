@@ -18,3 +18,17 @@ Nécessite MinGW-w64 (g++) ou MSVC, GDI+ et les libs Win32 standard.
 windres resources.rc -O coff -o resources.o
 g++ osu_extract.cpp resources.o -o osu-mp3-extract.exe -lgdiplus -lgdi32 -lole32 -luuid -lshell32 -static -static-libgcc -static-libstdc++ -mwindows
 \`\`\`
+
+## Droits et mentions légales
+
+Ce projet est un outil non officiel, sans lien avec ppy Pty Ltd ni
+l'équipe de développement d'osu!.
+
+« osu! » est une marque et un jeu appartenant à **ppy Pty Ltd**.
+Tous les droits sur le jeu, son nom, son logo et les beatmaps
+(musiques, artworks, etc.) reviennent à leurs propriétaires respectifs.
+
+Cet outil se contente de lire des fichiers déjà présents sur la
+machine de l'utilisateur (dossier `Songs`) pour en extraire les MP3 ;
+il ne redistribue, n'héberge et ne modifie aucun contenu protégé
+d'osu!.
