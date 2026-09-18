@@ -16,5 +16,5 @@ Nécessite MinGW-w64 (g++) ou MSVC, GDI+ et les libs Win32 standard.
 
 \`\`\`bash
 windres resources.rc -O coff -o resources.o
-g++ osu2.cpp resources.o -o osu2.exe -lgdiplus -lgdi32 -lole32 -luuid -lshell32 -static -static-libgcc -static-libstdc++ -mwindows
+g++ osu_extract.cpp resources.o -o osu-mp3-extract.exe -lgdiplus -lgdi32 -lole32 -luuid -lshell32 -static -static-libgcc -static-libstdc++ -mwindows
 \`\`\`
